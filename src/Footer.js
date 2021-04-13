@@ -3,7 +3,7 @@ import { Navbar } from "react-bootstrap";
 
 function Footer() {
   return (
-    <Navbar fixed="bottom">
+    <Navbar expand='lg' bg='light' fixed='bottom' >
       <h1>Footer</h1>
     </Navbar>
   );
