@@ -1,10 +1,11 @@
 import React from "react";
+import { Navbar } from "react-bootstrap";
 
 function Footer() {
   return (
-    <footer>
+    <Navbar fixed="bottom">
       <h1>Footer</h1>
-    </footer>
+    </Navbar>
   );
 }
 

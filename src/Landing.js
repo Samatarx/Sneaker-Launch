@@ -1,10 +1,17 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
+import images from './images'
+
+console.log(images)
 
 function Landing() {
   return (
-    <div>
-      <h1>Landing</h1>
-    </div>
+    <Row>
+      <Col>Landing</Col>
+      <Col>{images.map((id,image)=>{
+        return (<img scr={image} key={id} />)
+      })}</Col>
+    </Row>
   );
 }
 
