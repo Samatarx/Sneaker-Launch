@@ -1,16 +1,19 @@
 import React, { useState } from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Container } from "react-bootstrap";
 import images from "./images";
 
 console.log(images);
 
 function Landing() {
-  const { id, img } = images;
   return (
-    <Row noGutters>
-      <Col lg={true}>Landing</Col>
-      <Col lg={true}>
-        {<img src={images[5].img} />}
+    <Row noGutters >
+      <Col md={6} xs={12}>
+        <Container  style={{display:'flex', justifyContent:'center'}}>
+        {<img src={images[5].img} style={{width:'400px'}} />}
+        </Container>
+      </Col>
+      <Col md={6} xs={12} style={{display:'flex', justifyContent:'center', marginBottom:'75px'}}>
+        {<img src={images[5].img} style={{width:'400px'}}  />}
       </Col>
     </Row>
   );

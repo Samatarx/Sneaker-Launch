@@ -4,7 +4,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 function Header() {
   return (
-    <Navbar bg='light' expand='lg' >
+    <Navbar bg='light' expand='lg' collapseOnSelect>
       <LinkContainer to="/">
         <Navbar.Brand>Sneaker drop</Navbar.Brand>
       </LinkContainer>
