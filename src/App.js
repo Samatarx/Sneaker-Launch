@@ -9,7 +9,7 @@ import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <main>
+    <main >
     <Router>
       <Header />
       <Switch>
