@@ -4,19 +4,19 @@ import { LinkContainer } from "react-router-bootstrap";
 
 function Header() {
   return (
-    <Navbar expand='lg' collapseOnSelect  style={{backgroundColor:'#96C0DF', color:'#fff'}}>
-      <LinkContainer to="/" style={{color:'#fff'}}>
+    <Navbar expand='lg' collapseOnSelect style={{borderBottom:'2px #96C0DF solid'}} >
+      <LinkContainer to="/" style={{color:'#000'}}>
         <Navbar.Brand >Sneaker drop</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav >
-          <LinkContainer style={{color:'#fff'}} to="/Inspiration">
-            <Nav.Link>Inspo</Nav.Link>
+          <LinkContainer style={{color:'#000'}} to="/Inspiration">
+            <Nav.Link>heritage</Nav.Link>
           </LinkContainer>
         </Nav>
         <Nav>
-          <LinkContainer style={{color:'#fff'}} to="/Preorder">
+          <LinkContainer style={{color:'#fff', backgroundColor:'#96C0DF', borderRadius:'5px',padding:'3px 5px'}} to="/Preorder">
             <Nav.Link>Preorder</Nav.Link>
           </LinkContainer>
         </Nav>

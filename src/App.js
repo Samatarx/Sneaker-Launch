@@ -2,14 +2,14 @@ import "./Styling/App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Header";
 import Preorder from "./Preorder";
-import Inspiration from "./Inspiration";
+import Inspiration from "./Hertiage";
 import Footer from "./Footer";
 import Landing from "./Landing";
 import { Container } from "react-bootstrap";
 
 function App() {
   return (
-    <main >
+    <main style={{maxWidth:'2000px', margin:'auto'}}>
     <Router>
       <Header />
       <Switch>
