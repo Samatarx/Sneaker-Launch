@@ -27,7 +27,7 @@ body {
 
 .sub-heading {
   text-decoration: underline solid #96c0df;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .shoe-image {
@@ -97,7 +97,7 @@ body {
   }
 
   .sub-heading {
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: -2px;
   }
 
@@ -110,7 +110,7 @@ body {
   }
 
   .image-section {
-    height: 25%;
+    height: auto;
   }
 
   #nav-link {
