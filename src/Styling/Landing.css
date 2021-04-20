@@ -7,7 +7,7 @@ body {
   height: 100%;
   justify-content: center;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   text-transform: uppercase;
 }
 
@@ -20,13 +20,10 @@ body {
   height: 100%;
 }
 
-.heading {
-  font-size: 120px;
-  letter-spacing: -5px;
-}
+
 
 .sub-heading {
-  text-decoration: underline solid #96C0DF;
+  text-decoration: underline solid #96c0df;
 }
 
 .shoe-image {
@@ -44,7 +41,7 @@ body {
 
   .sub-heading {
     font-size: 80px;
-    line-height: 95%;
+    line-height: 1.1;
     letter-spacing: -1px;
   }
 
@@ -54,7 +51,6 @@ body {
 }
 
 @media (max-width: 767px) {
-
   .heading {
     font-size: 75px;
   }
@@ -64,17 +60,15 @@ body {
   }
 
   .text-section {
-    height:auto;
+    height: auto;
   }
 
-  .image-section{
+  .image-section {
     height: auto;
-   
   }
 }
 
 @media (max-width: 500px) {
-
   .heading {
     font-size: 85px;
     letter-spacing: -2px;
@@ -83,7 +77,6 @@ body {
   .sub-heading {
     font-size: 35px;
     letter-spacing: -2px;
-    
   }
 
   .shoe-image {
@@ -91,13 +84,12 @@ body {
   }
 
   .text-section {
-    height:auto;
-  }
-
-  .image-section{
     height: auto;
   }
 
+  .image-section {
+    height: auto;
+  }
 
   .nav-link {
     margin-bottom: 100px;
