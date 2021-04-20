@@ -41,7 +41,7 @@ function Landing() {
             }}
             to="/Preorder"
           >
-            <Nav.Link>Preorder Now</Nav.Link>
+            <Nav.Link id='nav-link'>Preorder Now</Nav.Link>
           </LinkContainer>
         </Col>
       </Row>
