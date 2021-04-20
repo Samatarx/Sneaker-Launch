@@ -47,9 +47,9 @@ function Footer() {
       }}
     >
       <footer className="mx-auto">
-        <div style={{ textAlign: "center", margin: "0" }}>
+        <div style={{ textAlign: "center", margin: "0", padding:'0' }}>
           <p style={{ color: "#fff", margin: "0" }}>Dropping at Midnight</p>
-          <p style={{ color: "#fff" }}>
+          <p style={{ color: "#fff", padding:'0', margin: "0" }}>
             {Object.values(timeLeft).map((time, idx) => {
               return (
                 <span
@@ -58,7 +58,7 @@ function Footer() {
                     backgroundColor: "white",
                     color: "#000",
                     margin: "0px 2px",
-                    padding: "3.5px",
+                    padding: "0 3.5px",
                   }}
                 >
                   {time < 10 ? "0" + time : time}
