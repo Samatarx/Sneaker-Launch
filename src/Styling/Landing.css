@@ -1,0 +1,105 @@
+body {
+  overflow-x: hidden;
+}
+
+.text-section {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items:flex-start;
+  text-transform: uppercase;
+}
+
+.image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  height: 100%;
+}
+
+.heading {
+  font-size: 120px;
+  letter-spacing: -5px;
+}
+
+.sub-heading {
+  text-decoration: underline solid #96C0DF;
+}
+
+.shoe-image {
+  height: 450px;
+  margin-top: -20px;
+}
+
+@media (min-width: 1500px) {
+  .heading {
+    font-size: 150px;
+    letter-spacing: -7px;
+    line-height: 95%;
+    padding-bottom: 15px;
+  }
+
+  .sub-heading {
+    font-size: 80px;
+    line-height: 95%;
+    letter-spacing: -1px;
+  }
+
+  .shoe-image {
+    height: 700px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .heading {
+    font-size: 75px;
+  }
+
+  .shoe-image {
+    height: 300px;
+  }
+
+  .text-section {
+    height:auto;
+  }
+
+  .image-section{
+    height: auto;
+   
+  }
+}
+
+@media (max-width: 500px) {
+
+  .heading {
+    font-size: 85px;
+    letter-spacing: -2px;
+  }
+
+  .sub-heading {
+    font-size: 35px;
+    letter-spacing: -2px;
+    
+  }
+
+  .shoe-image {
+    height: 300px;
+  }
+
+  .text-section {
+    height:auto;
+  }
+
+  .image-section{
+    height: auto;
+  }
+
+
+  .nav-link {
+    margin-bottom: 100px;
+  }
+}

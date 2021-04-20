@@ -27,8 +27,6 @@ function Footer() {
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
-  console.log(timeLeft);
-
   useEffect(() => {
     setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
@@ -47,9 +45,9 @@ function Footer() {
       }}
     >
       <footer className="mx-auto">
-        <div style={{ textAlign: "center", margin: "0", padding:'0' }}>
+        <div style={{ textAlign: "center", margin: "0", padding: "0" }}>
           <p style={{ color: "#fff", margin: "0" }}>Dropping at Midnight</p>
-          <p style={{ color: "#fff", padding:'0', margin: "0" }}>
+          <p style={{ color: "#fff", padding: "0", margin: "0" }}>
             {Object.values(timeLeft).map((time, idx) => {
               return (
                 <span
