@@ -27,6 +27,8 @@ function Footer() {
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
+  console.log(timeLeft);
+
   useEffect(() => {
     setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
@@ -42,28 +44,27 @@ function Footer() {
         maxWidth: "2000px",
         padding: "0",
         margin: "auto",
-        
       }}
     >
       <footer className="mx-auto">
         <div style={{ textAlign: "center", margin: "0" }}>
           <p style={{ color: "#fff", margin: "0" }}>Dropping at Midnight</p>
           <p style={{ color: "#fff" }}>
-            <span style={{ backgroundColor: "white", color: "#000" }}>
-              {timeLeft.hours < 10 ? "0" + timeLeft.hours : timeLeft.hours}
-            </span>
-            :
-            <span style={{ backgroundColor: "white", color: "#000" }}>
-              {timeLeft.minutes < 10
-                ? "0" + timeLeft.minutes
-                : timeLeft.minutes}
-            </span>
-            :
-            <span style={{ backgroundColor: "white", color: "#000" }}>
-              {timeLeft.seconds < 10
-                ? "0" + timeLeft.seconds
-                : timeLeft.seconds}
-            </span>
+            {Object.values(timeLeft).map((time, idx) => {
+              return (
+                <span
+                  key={idx}
+                  style={{
+                    backgroundColor: "white",
+                    color: "#000",
+                    margin: "0px 2px",
+                    padding: "3.5px",
+                  }}
+                >
+                  {time < 10 ? "0" + time : time}
+                </span>
+              );
+            })}
           </p>
           <p style={{ fontSize: "5px", margin: "0" }}>Property of Nike</p>
         </div>

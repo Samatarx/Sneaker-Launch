@@ -11,8 +11,8 @@ function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
         <Nav >
-          <LinkContainer style={{color:'#000'}} to="/Inspiration">
-            <Nav.Link>heritage</Nav.Link>
+          <LinkContainer style={{color:'#000'}} to="/Heritage">
+            <Nav.Link>Heritage</Nav.Link>
           </LinkContainer>
         </Nav>
         <Nav>

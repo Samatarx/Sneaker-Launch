@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Hertiage() {
+function Heritage() {
     return (
         <div>
             <h1>Heritage</h1>
@@ -8,4 +8,4 @@ function Hertiage() {
     )
 }
 
-export default Hertiage
+export default Heritage
