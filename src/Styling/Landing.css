@@ -20,15 +20,18 @@ body {
   height: 100%;
 }
 
-
+.heading {
+  font-size: 120px;
+  letter-spacing: -7px;
+}
 
 .sub-heading {
   text-decoration: underline solid #96c0df;
+  font-size: 60px;
 }
 
 .shoe-image {
-  height: 450px;
-  margin-top: -20px;
+  height: 550px;
 }
 
 @media (min-width: 1500px) {
@@ -50,13 +53,29 @@ body {
   }
 }
 
+@media (max-width:1000){
+  .heading {
+    font-size: 100px;
+    letter-spacing: -7px;
+    line-height: 95%;
+    padding-bottom: 15px;
+  }
+
+  .sub-heading {
+    font-size: 80px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+  }
+}
+
 @media (max-width: 767px) {
   .heading {
     font-size: 75px;
+    letter-spacing: 2px;
   }
 
   .shoe-image {
-    height: 300px;
+    height: 550px;
   }
 
   .text-section {
@@ -64,7 +83,10 @@ body {
   }
 
   .image-section {
-    height: auto;
+    height: 70%;
+  }
+  .nav-link {
+    margin-bottom: 100px;
   }
 }
 
@@ -88,7 +110,7 @@ body {
   }
 
   .image-section {
-    height: auto;
+    height: 25%;
   }
 
   .nav-link {
