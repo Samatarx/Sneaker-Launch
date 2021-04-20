@@ -20,7 +20,12 @@ function Header() {
       >
         <Nav>
           <LinkContainer style={{ color: "#000" }} to="/Heritage">
-            <Nav.Link>Heritage</Nav.Link>
+            <Nav.Link  > <span style={{
+                  color: "#000",
+                  backgroundColor: "#fff",
+                  borderRadius: "5px",
+                  padding: "3px 5px",
+                }}> Heritage</span></Nav.Link>
           </LinkContainer>
         </Nav>
         <Nav>
