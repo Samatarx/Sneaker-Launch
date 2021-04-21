@@ -5,8 +5,6 @@ import images from "../images";
 // import "./Styling/Landing.css";
 import "../Styling/Landing.css";
 
-console.log(images);
-
 function Landing() {
   return (
     <Container>

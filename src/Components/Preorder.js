@@ -1,10 +1,11 @@
 import React from 'react'
+import FormFile from './Forms/FormFile'
 
-function Preorder() {
+const Preorder = () => {
     return (
-        <div>
-            <h1>Order now</h1>
-        </div>
+        <main>
+            <FormFile/>
+        </main>
     )
 }
 

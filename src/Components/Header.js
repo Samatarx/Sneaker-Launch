@@ -20,7 +20,7 @@ function Header() {
       >
         <Nav>
           <LinkContainer style={{ color: "#000" }} to="/Heritage">
-            <Nav.Link >Heritage</Nav.Link>
+            <Nav.Link>Heritage</Nav.Link>
           </LinkContainer>
         </Nav>
         <Nav>
@@ -29,7 +29,6 @@ function Header() {
               <span
                 style={{
                   color: "red",
-                  
                 }}
               >
                 Preorder
