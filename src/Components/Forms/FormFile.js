@@ -38,7 +38,7 @@ function FormFile({ count, increaseCount }) {
                 <Form.Label>Surname</Form.Label>
                 <Form.Control
                   type="name"
-                  placeholder="Ibrahih"
+                  placeholder="Ibrahim"
                   {...register("surname", {
                     required: true,
                     pattern: /^[A-Za-z]+$/i,
