@@ -18,7 +18,7 @@ function Landing() {
           <Carousel controls={false} indicators={false}>
             {images.map((image, idx) => {
               return (
-                <Carousel.Item interval={3000} key={idx}>
+                <Carousel.Item interval={2500} key={idx}>
                   <img
                     src={image.img}
                     alt="Air Jordan 1 University Blue"

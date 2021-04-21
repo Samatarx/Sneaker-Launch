@@ -1,8 +1,4 @@
 
-*{
-    --theme-blue: #96c0df
-}
-
 .checkmark__circle {
     stroke-dasharray: 166;
     stroke-dashoffset: 166;

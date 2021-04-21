@@ -19,7 +19,7 @@ function MyVerticallyCenteredModal(props) {
         <Button onClick={props.onHide}  style={{margin:'0px 5px', padding:'3px 10px'}}>Submit</Button>
       </Modal.Body>
       <Modal.Footer style={{justifyContent:'center', textAlign:'center'}} >
-         <h5> All rights reserved to NIKE, I do not own any of the images or reference to this project</h5>
+         <p> All rights reserved to NIKE, I do not own any of the images or reference to this project, no user data is keep for this project</p>
       </Modal.Footer>
     </Modal>
   );

@@ -3,6 +3,7 @@
 * {
   font-family: 'Antonio', sans-serif;
   text-transform: uppercase;
+  --theme-blue: #96c0df
 }
 
 .App {
