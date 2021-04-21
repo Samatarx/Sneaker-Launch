@@ -1,0 +1,27 @@
+.section-form {
+  margin: auto;
+}
+
+.section-row {
+  margin-bottom: 100px;
+  padding: 0px 30px;
+  justify-content: center;
+}
+
+.form-title {
+  text-align: center;
+  margin: 25px;
+}
+
+.form-style {
+  max-width: 650px;
+  margin: auto;
+}
+
+.error-message li {
+  color: red;
+}
+
+.form-button-row {
+  justify-content: center;
+}

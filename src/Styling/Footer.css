@@ -1,0 +1,25 @@
+.custom-footer {
+  background-color: #000;
+  max-width: 2000px;
+  padding: 0;
+  margin: auto;
+}
+
+.section-footer {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-para {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-time {
+  background-color: #fff;
+  color: #000;
+  margin: 0px 2px;
+  padding: 0px 3.5px;
+}

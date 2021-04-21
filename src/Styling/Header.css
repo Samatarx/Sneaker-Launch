@@ -1,0 +1,16 @@
+.header-navbar {
+  border-bottom: 2px #96c0df solid;
+}
+
+.header-logo,
+.header-link {
+  color: #000 !important;
+}
+
+.header-collapse {
+  border: none;
+}
+
+.header-span {
+  color: red;
+}

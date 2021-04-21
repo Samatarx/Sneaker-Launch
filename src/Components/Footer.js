@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar } from "react-bootstrap";
+import "../Styling/Footer.css";
 
 function Footer() {
   const calculateTimeLeft = () => {
@@ -34,38 +35,20 @@ function Footer() {
   });
 
   return (
-    <Navbar
-      expand="lg"
-      fixed="bottom"
-      style={{
-        backgroundColor: "#000",
-        maxWidth: "2000px",
-        padding: "0",
-        margin: "auto",
-      }}
-    >
+    <Navbar expand="lg" fixed="bottom" className="custom-footer">
       <footer className="mx-auto">
-        <div style={{ textAlign: "center", margin: "0", padding: "0" }}>
-          <p style={{ color: "#fff", margin: "0" }}>Dropping at Midnight</p>
-          <p style={{ color: "#fff", padding: "0", margin: "0" }}>
+        <section className="section-footer">
+          <p className="footer-para">Dropping at Midnight</p>
+          <p className="footer-para">
             {Object.values(timeLeft).map((time, idx) => {
               return (
-                <span
-                  key={idx}
-                  style={{
-                    backgroundColor: "white",
-                    color: "#000",
-                    margin: "0px 2px",
-                    padding: "0 3.5px",
-                  }}
-                >
+                <span className="footer-time" key={idx}>
                   {time < 10 ? "0" + time : time}
                 </span>
               );
             })}
           </p>
-          <p style={{ fontSize: "5px", margin: "0" }}>Property of Nike</p>
-        </div>
+        </section>
       </footer>
     </Navbar>
   );

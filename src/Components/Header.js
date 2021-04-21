@@ -1,38 +1,28 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import "../Styling/Header.css";
 
 function Header() {
   return (
-    <Navbar
-      expand="lg"
-      collapseOnSelect
-      style={{ borderBottom: "2px #96C0DF solid" }}
-    >
-      <LinkContainer to="/" style={{ color: "#000" }}>
+    <Navbar expand="lg" collapseOnSelect className="header-navbar">
+      <LinkContainer className="header-logo" to="/">
         <Navbar.Brand>Sneaker drop</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse
         id="basic-navbar-nav"
-        className="justify-content-end"
-        style={{ border: "none" }}
+        className="justify-content-end header-collapse"
       >
         <Nav>
-          <LinkContainer style={{ color: "#000" }} to="/Heritage">
-            <Nav.Link>Heritage</Nav.Link>
+          <LinkContainer className="header-link" to="/Heritage">
+            <Nav.Link className="header-link">Heritage</Nav.Link>
           </LinkContainer>
         </Nav>
         <Nav>
           <LinkContainer to="/Preorder">
             <Nav.Link>
-              <span
-                style={{
-                  color: "red",
-                }}
-              >
-                Preorder
-              </span>
+              <span className="header-span">Preorder</span>
             </Nav.Link>
           </LinkContainer>
         </Nav>

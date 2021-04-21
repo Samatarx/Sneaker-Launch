@@ -1,0 +1,20 @@
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-input {
+  width: 200px;
+}
+
+.modal-button {
+  margin: 0px 5px;
+  padding: 3px 10px !important ;
+}
+
+.modal-footer {
+  justify-content: center;
+  text-align: center;
+  font-size: small;
+}

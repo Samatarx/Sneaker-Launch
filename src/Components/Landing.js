@@ -8,7 +8,7 @@ import "../Styling/Landing.css";
 function Landing() {
   return (
     <Container>
-      <Row noGutters style={{ marginBottom: "100px", height: "80vh" }}>
+      <Row noGutters className="text-row">
         <Col md={6} xs={12} lg={7} className="text-section">
           <h1 className="heading">Latest Drop of 2021</h1>
           <h2 className="sub-heading">Air Jordan 1 University Blue</h2>
@@ -28,18 +28,8 @@ function Landing() {
               );
             })}
           </Carousel>
-          <LinkContainer
-            style={{
-              color: "#fff",
-              backgroundColor: "#96C0DF",
-              borderRadius: "5px",
-              padding: "3px 5px",
-              fontSize: "20px",
-              letterSpacing: "2px",
-            }}
-            to="/Preorder"
-          >
-            <Nav.Link id='nav-link'>Preorder Now</Nav.Link>
+          <LinkContainer className="preorder-link" to="/Preorder">
+            <Nav.Link id="nav-link">Preorder Now</Nav.Link>
           </LinkContainer>
         </Col>
       </Row>

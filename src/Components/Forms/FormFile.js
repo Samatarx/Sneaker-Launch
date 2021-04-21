@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Row, Form, Col, Button } from "react-bootstrap";
 import { useForm } from "react-hook-form";
+import "../../Styling/FormFile.css";
 
 function FormFile({ count, increaseCount }) {
   const {
@@ -15,20 +16,11 @@ function FormFile({ count, increaseCount }) {
   };
 
   return (
-    <section style={{ margin: "auto" }}>
-      <Row
-        style={{
-          marginBottom: "100px",
-          padding: "0px 30px",
-          justifyContent: "center",
-        }}
-      >
+    <section className="section-form">
+      <Row className="section-row">
         <Col md={6} lg={5} xs={12}>
-          <h1 style={{ textAlign: "center", margin: "25px" }}>PreOrder now</h1>
-          <Form
-            onSubmit={handleSubmit(onSubmission)}
-            style={{ maxWidth: "650px", margin: "auto" }}
-          >
+          <h1 className="form-title">PreOrder now</h1>
+          <Form className="form-style" onSubmit={handleSubmit(onSubmission)}>
             <Form.Row>
               <Form.Group as={Col} controlId="formGridFirstName">
                 <Form.Label>First Name</Form.Label>
@@ -105,13 +97,17 @@ function FormFile({ count, increaseCount }) {
                 />
               </Form.Group>
             </Form.Row>
-            <ul>
-              {errors.firstName ? <li>Please input a valid first name</li> : ""}
-              {errors.surname ? <li>Please input a valid surname</li> : ""}
-              {errors.email ? <li>Please input a valid email</li> : ""}
+            <ul className="error-message">
+              {errors.firstName ? <li>Please enter a valid first name</li> : ""}
+              {errors.surname ? <li>Please enter a valid surname</li> : ""}
+              {errors.email ? <li>Please enter a valid email</li> : ""}
+              {errors.address1 ? <li>Please enter a valid Address</li> : ""}
+              {errors.country ? <li>Please enter a valid email</li> : ""}
+              {errors.postcode ? <li>Please enter a valid post Code</li> : ""}
+              {errors.city ? <li>Please enter a valid City</li> : ""}
             </ul>
-            <Form.Row style={{ justifyContent: "center" }}>
-              <Button variant="primary" type="submit">
+            <Form.Row className="form-button-row">
+              <Button variant="dark" type="submit">
                 Submit
               </Button>
             </Form.Row>

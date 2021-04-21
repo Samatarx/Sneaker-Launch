@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "../../Styling/Success.css";
 
-const Success = (decreaseCount, count) => {
+const Success = () => {
   return (
     <section>
       <Row>
@@ -25,10 +25,14 @@ const Success = (decreaseCount, count) => {
               d="M14.1 27.2l7.1 7.2 16.7-16.8"
             />
           </svg>
-          <div style={{ textAlign: "center" }}>
-            <h3>Thank you</h3>
-            <h5>We will be in touch to let you if you have been success</h5>
-            <h5>please Check your email after midnght</h5>
+          <div className="success-text">
+            <h2>Thank you</h2>
+            <p className="success-para">
+              We will be in touch to let you if you have been success
+            </p>
+            <p className="success-para">
+              please Check your email after midnght
+            </p>
           </div>
         </Col>
       </Row>

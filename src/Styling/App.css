@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap");
 
 * {
-  font-family: 'Antonio', sans-serif;
+  font-family: "Antonio", sans-serif;
   text-transform: uppercase;
-  --theme-blue: #96c0df
+  --theme-blue: #96c0df;
 }
 
 .App {
   text-align: center;
 }
 
-
-.navbar-light .navbar-toggler{
-  border:none
+.navbar-light .navbar-toggler {
+  border: none;
 }
 
-
+main {
+  max-width: 2000px;
+  margin: auto;
+}
