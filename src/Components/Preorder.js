@@ -4,7 +4,6 @@ import Success from './Forms/Success'
 
 const Preorder = () => {
     const [count,setCount] = useState(0)
-    const [info, setInfo] = useState({})
     const increaseCount = () => {
         setCount(count + 1)
     }
@@ -15,7 +14,7 @@ const Preorder = () => {
     if(count<=0) {
         return (
         <main>
-            <FormFile count={count} increaseCount={increaseCount} info={info} />
+            <FormFile count={count} increaseCount={increaseCount} />
         </main>
     )
     } else {

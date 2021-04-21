@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Row, Form, Col, Button } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
-function FormFile({count,increaseCount}) {
+function FormFile({ count, increaseCount }) {
   const {
     register,
     handleSubmit,
@@ -11,10 +11,7 @@ function FormFile({count,increaseCount}) {
   const [info, setInfo] = useState({});
   const onSubmission = (data) => {
     setInfo(data);
-    increaseCount()
-    console.log(data);
-    console.log(info);
-
+    increaseCount();
   };
 
   return (
