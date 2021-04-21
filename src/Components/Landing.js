@@ -7,7 +7,7 @@ import "../Styling/Landing.css";
 
 function Landing() {
   return (
-    <Container>
+    <Container className='container-landing' >
       <Row noGutters className="text-row">
         <Col md={6} xs={12} lg={7} className="text-section">
           <h1 className="heading">Latest Drop of 2021</h1>

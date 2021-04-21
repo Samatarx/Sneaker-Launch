@@ -31,7 +31,7 @@ body {
 }
 
 .sub-heading {
-  text-decoration: underline solid var(--theme-blue);
+  text-decoration: underline solid #96c0df;
   font-size: 40px;
 }
 
@@ -50,6 +50,10 @@ body {
 }
 
 @media (min-width: 1500px) {
+  .container-landing {
+    display: flex;
+    justify-content: space-between;
+  }
   .heading {
     font-size: 150px;
     letter-spacing: -7px;
