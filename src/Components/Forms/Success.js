@@ -28,7 +28,7 @@ const Success = () => {
           <div className="success-text">
             <h2>Thank you</h2>
             <p className="success-para">
-              We will be in touch to let you if you have been success
+              We will be in touch to let you if you have been successful
             </p>
             <p className="success-para">
               please Check your email after midnght

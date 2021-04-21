@@ -20,7 +20,7 @@ function MyVerticallyCenteredModal(props) {
         <Button variant="dark" onClick={props.onHide} className='modal-button'>Submit</Button>
       </Modal.Body>
       <Modal.Footer className='modal-footer'>
-         <p> All rights reserved to NIKE, I do not own any of the images or reference to this project, no user data is keep for this project</p>
+         <p> All rights reserved to NIKE, I do not own any of the images or reference to this project, no user data is kept for this project</p>
       </Modal.Footer>
     </Modal>
   );
