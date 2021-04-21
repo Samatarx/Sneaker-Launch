@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import FormFile from './Forms/FormFile'
 import Success from './Forms/Success'
+import '../Styling/Preorder.css'
 
 const Preorder = () => {
     const [count,setCount] = useState(0)
