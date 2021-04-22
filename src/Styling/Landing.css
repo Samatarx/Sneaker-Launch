@@ -121,7 +121,7 @@ body {
   }
 
   .shoe-image {
-    height: 110vw;
+    height: 105vw;
     overflow-x: hidden;
   }
 
@@ -134,6 +134,20 @@ body {
   }
 
   #nav-link {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-height:600px){
+  .heading {
+    font-size: 85px;
+    letter-spacing: -2px;
+  }
+  .shoe-image {
+    height: 440px;
+    overflow-x: hidden;
+  }
+  .preorder-link{
     margin-bottom: 100px;
   }
 }
