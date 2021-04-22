@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
+<p align="center">
+  <a href="https://github.com/samatarx/Crypto-Dashboard">
+    :moneybag:
+  </a>
 
-## Available Scripts
+  <h3 align="center">Sneaker Drop</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    A sneaker drop website made with React.js and Bootsrap 4
+    <br />
+    <br />
+    <a href="https://top100cryptocurrencies.netlify.app/" target='#'>View Demo</a>
+    ·
+    <a href="https://github.com/samatarx/Crypto-Dashboard/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/samatarx/Crypto-Dashboard/issues">Request Feature</a>
+  </p>
+</p>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#react">React</a>
+        <ul>
+            <li><a href="#react-router">React Router</a></li>
+            <li><a href="#react-form">React Form Validation</a></li>
+        </ul>
+    </li>
+    <li><a href="#aws">AWS</a></li>
+    <li><a href="#seo">SEO</a></li>
+    <li><a href="#future_work">Future Work</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ABOUT THE PROJECT -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+Cryptocurrencies and decentralised finance (DeFi) are taking over the world and redefining what money is. I wanted to create a dashboard which displays the current price of a coin and more importantly the price changes of the coin.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I used the JAMstack approach to build this project, I found an amazing free API from Coingecko and I leveraged my React.js skills to build an elegant dashboard.
 
-### `npm run build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React JS](https://reactjs.org/)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+- [React Router](https://reactrouter.com/)
+- [React Hook Form](https://react-hook-form.com/)
+- HTML/CSS/JS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To get a local copy up and running follow these simple steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This is an example of how to list things you need to use the software and how to install them.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repo
+   ```sh
+   git clone https://github.com/samatarx/Crypto-Dashboard.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- USAGE EXAMPLES -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
 
-### Code Splitting
+- Displays cryptocurrency information/data about current values and price changes from 1 day to 1 year
+- Users can search through the data using the input bar
+- Data can be viewed in list format and in card format
+- Created a button to allow users to return to the top of the page effortlessly
+- Made a CSS animation informing users to rotate the screen
+- Web app is responsive to all screen sizes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- ROADMAP -->
 
-### Analyzing the Bundle Size
+## React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Implemented the use of React hooks through the project
+- Used useEffect to call the data in an asynchronous way
+- Allow users to switch between card and list view using useState properties and terniary operators
+- Used .map(), .filter(), .sort() and .includes() to manipulate the JSON file recieved from the API
 
-### Making a Progressive Web App
+<!-- Future Improvements -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Future_work
 
-### Advanced Configuration
+- Display tickers/price graphs using Chart.js or equivalent
+- Allow users to compare
+- Make the mobile rotate optional
+- Create tests for the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- CONTACT -->
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Samatar Xasan - [@samatarcodes](https://twitter.com/samatarcodes)
 
-### `npm run build` fails to minify
+Project Link: [https://github.com/Samatarx/Sneaker-Launch](https://github.com/Samatarx/Sneaker-Launch)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+- [Nike](https://www.nike.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+- [React Router](https://reactrouter.com/)
+- [React Hook Form](https://react-hook-form.com/)
