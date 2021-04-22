@@ -1,7 +1,11 @@
 .modal-body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:flex-start ;
+}
+
+label {
+  margin: 0 5px;
 }
 
 .modal-input {
