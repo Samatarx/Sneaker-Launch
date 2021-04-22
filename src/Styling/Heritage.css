@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .container-style {
-  margin: 0 0 64px 0;
+  margin: 0 auto 64px auto;
   padding: 0;
 }
 
