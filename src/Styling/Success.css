@@ -1,10 +1,26 @@
 .success-text {
   text-align: center;
+  margin: -20px 0;
+  padding: 10px 20px;
+  height: 400px;
 }
 
 .success-para {
-  padding: 0;
+  padding: 15px;
   margin: 0;
+}
+
+.success-span {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--theme-blue);
+  color: #fff;
+}
+
+.success-span:hover{
+  background-color: red;
+  cursor: pointer;
 }
 
 .checkmark__circle {

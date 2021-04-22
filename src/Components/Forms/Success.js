@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import "../../Styling/Success.css";
 
 const Success = () => {
@@ -33,6 +34,9 @@ const Success = () => {
             <p className="success-para">
               please Check your email after midnght
             </p>
+            <LinkContainer to="/Heritage">
+            <p className="success-para"><span className="success-span">heritage</span></p>
+          </LinkContainer>
           </div>
         </Col>
       </Row>

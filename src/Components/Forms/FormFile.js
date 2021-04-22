@@ -26,7 +26,7 @@ function FormFile({ count, increaseCount }) {
                 <Form.Label>First Name</Form.Label>
                 <Form.Control
                   type="name"
-                  placeholder="Suad"
+                  placeholder="Joe"
                   {...register("firstName", {
                     required: true,
                     pattern: /^[A-Za-z]+$/i,
@@ -38,7 +38,7 @@ function FormFile({ count, increaseCount }) {
                 <Form.Label>Surname</Form.Label>
                 <Form.Control
                   type="name"
-                  placeholder="Ibrahim"
+                  placeholder="Bloggs"
                   {...register("surname", {
                     required: true,
                     pattern: /^[A-Za-z]+$/i,
@@ -51,7 +51,7 @@ function FormFile({ count, increaseCount }) {
               <Form.Label>Email</Form.Label>
               <Form.Control
                 type="email"
-                placeholder="Suad@blog.com"
+                placeholder="joe@bloggs.com"
                 {...register("email", {
                   required: true,
                   pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
