@@ -3,6 +3,8 @@
   --neutral-tone: rgb(241, 251, 255);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .container-style {
   margin: 0 0 64px 0;
   padding: 0;
@@ -16,7 +18,7 @@
 
 .heritage-image-shoe {
   background-color: var(--grey-tone);
-  width: 300px;
+  width: 450px;
   height: auto;
 }
 
@@ -33,6 +35,7 @@
   text-align: center;
   text-transform: none;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .heritage-row {
@@ -45,7 +48,7 @@
 }
 
 .heritage-image-shoe-alone {
-  width: 300px;
+  width: 450px;
   height: auto;
 }
 
