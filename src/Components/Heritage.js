@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import images from "../images";
+// import images from "../images";
 import "../Styling/Heritage.css";
 
 function Heritage() {
@@ -11,7 +11,7 @@ function Heritage() {
         <Col className="heritage-image" xs={12} md={6} lg={5}>
           <img
             className="heritage-image-shoe"
-            src={images[0].img}
+            src="./images/5.png"
             alt="Air Jordan 1 University Blue"
           />
         </Col>
@@ -27,7 +27,7 @@ function Heritage() {
       <Row className="heritage-row">
         <img
           className="heritage-image-shoe-alone"
-          src={images[4].img}
+          src="./images/1.png"
           alt="Air Jordan 1 University Blue"
         />
       </Row>
@@ -44,7 +44,7 @@ function Heritage() {
         </Col>
         <Col className="heritage-image" xs={12} md={6} lg={5}>
           <img
-            src={images[3].img}
+            src="./images/4.png"
             alt="Air Jordan 1 University Blue"
             className="heritage-image-shoe"
           />
@@ -53,14 +53,14 @@ function Heritage() {
       <Row className="heritage-row">
         <img
           className="heritage-image-shoe-alone"
-          src={images[5].img}
+          src="./images/6.png"
           alt="Air Jordan 1 University Blue"
         />
       </Row>
       <Row>
         <Col className="heritage-image" xs={12} md={6} lg={5}>
           <img
-            src={images[2].img}
+            src="./images/3.png"
             alt="Air Jordan 1 University Blue"
             className="heritage-image-shoe"
           />
