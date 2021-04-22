@@ -8,14 +8,14 @@ function Heritage() {
   return (
     <Container className="container-style">
       <Row>
-        <Col className="heritage-image" xs={12} md={5} lg={5}>
+        <Col className="heritage-image" xs={12} md={6} lg={5}>
           <img
             className="heritage-image-shoe"
             src={images[0].img}
             alt="Air Jordan 1 University Blue"
           />
         </Col>
-        <Col className="heritage-text-col " xs={12} md={7} lg={7}>
+        <Col className="heritage-text-col " xs={12} md={6} lg={7}>
           <h2>Air Jordan 1</h2>
           <h4>University Blue</h4>
           <h5>£139.99</h5>
@@ -32,7 +32,7 @@ function Heritage() {
         />
       </Row>
       <Row className="reversed-row">
-        <Col className="heritage-text-col" xs={12} md={7} lg={7}>
+        <Col className="heritage-text-col" xs={12} md={6} lg={7}>
           <p className="heritage-text-para">
             More than 35 years after its debut, the Air Jordan 1 still stands as
             a timeless and versatile design built to match any aesthetic. This
@@ -42,7 +42,7 @@ function Heritage() {
             understated palette.
           </p>
         </Col>
-        <Col className="heritage-image" xs={12} md={5} lg={5}>
+        <Col className="heritage-image" xs={12} md={6} lg={5}>
           <img
             src={images[3].img}
             alt="Air Jordan 1 University Blue"
@@ -58,14 +58,14 @@ function Heritage() {
         />
       </Row>
       <Row>
-        <Col className="heritage-image" xs={12} md={5} lg={5}>
+        <Col className="heritage-image" xs={12} md={6} lg={5}>
           <img
             src={images[2].img}
             alt="Air Jordan 1 University Blue"
             className="heritage-image-shoe"
           />
         </Col>
-        <Col className="heritage-text-col" xs={12} md={7} lg={7}>
+        <Col className="heritage-text-col" xs={12} md={6} lg={7}>
           <p className="heritage-text-para">
             Since his game-winning shot that brought championship glory to North
             Carolina, Michael Jordan has been at the forefront of basketball
