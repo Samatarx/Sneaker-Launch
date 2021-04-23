@@ -80,9 +80,9 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 - Leverage the Bootstrap built in Modal and extended it further by using useEffect to turn it into a pop up
 - Took advantage of the responsive navbar and added custom CSS to change the default styling.
 
-<p align='center'>
+<details>
   <img src='./public/images/README-Images/bootstrap.png?raw=true'>
-</p>
+</details>
 
 ![Bootstrap](public/images/README-Images/bootstrap.png)
 
