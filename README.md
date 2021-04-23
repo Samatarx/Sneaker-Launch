@@ -80,11 +80,11 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 - Leverage the Bootstrap built in Modal and extended it further by using useEffect to turn it into a pop up
 - Took advantage of the responsive navbar and added custom CSS to change the default styling.
 
-![Bootstrap](/public/images/Bootstrap.png)
+![Bootstrap](/public/images/Bootstrap.PNG)
 
-<p>
+<!-- <p>
   <img src="./public/images/Bootstrap.png">
-</p>
+</p> -->
 
 ## AWS
 
@@ -96,7 +96,7 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 Was able to obtain a high score for the Google Lighthouse report, gaining an average of 96
 
 <p>
-  <img src="./public/images/SEO.png">
+  <img src="./public/images/SEO.PNG">
 </p>
 
 ## Future work
