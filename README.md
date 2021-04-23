@@ -71,7 +71,6 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 - Applied .map() to create all the image components
 - Leverage external libraries to create the form
 - Used React Router to switch between pages
--
 
 <!-- Future Improvements -->
 
