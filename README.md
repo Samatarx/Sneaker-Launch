@@ -3,9 +3,9 @@
 <br />
 <p align="center">
   <a href="https://github.com/samatarx/Sneaker-Launch">
-    
+    <img src='./public/images/5.png' width='250px' >
   </a>
-![alt text](./images/5.png)
+
 
   <h3 align="center">Sneaker Drop</h3>
 

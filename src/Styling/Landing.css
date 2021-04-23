@@ -138,16 +138,16 @@ body {
   }
 }
 
-@media (max-height:600px){
+@media (max-height:627px){
   .heading {
     font-size: 85px;
     letter-spacing: -2px;
   }
   .shoe-image {
-    height: 440px;
+    height: 420px;
     overflow-x: hidden;
   }
   .preorder-link{
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 }
