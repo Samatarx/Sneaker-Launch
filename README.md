@@ -6,7 +6,6 @@
     <img src='./public/images/5.png' width='250px' >
   </a>
 
-
   <h3 align="center">Sneaker Drop</h3>
 
   <p align="center">
@@ -22,31 +21,19 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#react">React</a></li>
-    <li><a href="#aws">AWS</a></li>
-    <li><a href="#seo">SEO</a></li>
-    <li><a href="#future_work">Future Work</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
+
+## Table of Contents
+1. [About the Project](#about-the-project)
+2. [Built With](#built-with)
+3. [Features](#features)
+4. [React](#react)
+5. [Bootstrap](#bootstrap)
+6. [AWS](#aws)
+7. [SEO](#seo)
+8. [Future Work](#future-work)
+9. [Contact](#contact)
+10. [Acknowledgements](#acknowledgements)
+
 
 <!-- ABOUT THE PROJECT -->
 
@@ -67,32 +54,6 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 - [AWS Amplify](https://aws.com)
 - HTML/CSS/JS
 
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/samatarx/Sneaker-Launch.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
 <!-- USAGE EXAMPLES -->
 
 ## Features
@@ -110,19 +71,30 @@ This is an example of how to list things you need to use the software and how to
 - Applied .map() to create all the image components
 - Leverage external libraries to create the form
 - Used React Router to switch between pages
-- 
+-
 
 <!-- Future Improvements -->
 
+## Bootstrap
+
+- Applied the latest version of Bootstrap to make the website aesthetic and modern
+- Leverage the Bootstrap built in Modal and extended it further by using useEffect to turn it into a pop up
+- Took advantage of the responsive navbar and added custom CSS to change the default styling.
+
+![](./public/images/README-Images/bootstrap.png)
+
 ## AWS
 
-Deployed my site online rapidly using AWS Amplify for the first time
+- Deployed my site online rapidly using AWS Amplify for the first time
+- Connected the site to an actual domain, whilst benefiting from the AWS security certificate 
 
 ## SEO
 
-Was able to obtain a high score for the 
+Was able to obtain a high score for the Google Lighthouse report, gaining an average of 96
 
-## Future_work
+![Lighthouse ratings](./public/images/README-Images/seo.png)
+
+## Future work
 
 - Add more shoes to the store and create a cart with Redux
 - Implement AWS Lambdas to create an entirely serverless site
