@@ -84,6 +84,8 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
   <img src='./public/images/README-Images/bootstrap.png?raw=true'>
 </p>
 
+![Bootstrap](./public/images/README-Images/bootstrap.png)
+
 ## AWS
 
 - Deployed my site online rapidly using AWS Amplify for the first time
