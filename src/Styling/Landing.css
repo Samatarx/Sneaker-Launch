@@ -105,7 +105,7 @@ body {
     height: 110%;
   }
   #nav-link {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 }
 
@@ -144,10 +144,10 @@ body {
     letter-spacing: -2px;
   }
   .shoe-image {
-    height: 420px;
+    height: 520px;
     overflow-x: hidden;
   }
   .preorder-link{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
 }
