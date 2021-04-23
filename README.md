@@ -116,11 +116,11 @@ This is an example of how to list things you need to use the software and how to
 
 ## AWS
 
-- Deployed my site online rapidly using AWS Amplify for the first time
+Deployed my site online rapidly using AWS Amplify for the first time
 
 ## SEO
 
-
+Was able to obtain a high score for the 
 
 ## Future_work
 

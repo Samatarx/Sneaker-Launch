@@ -17,7 +17,7 @@ function MyVerticallyCenteredModal(props) {
       </Modal.Header>
       <Modal.Body className='modal-body'>
         <label for='email'>Email:</label>
-        <input type="email" required className='modal-input' />
+        <input type="email" name='email' required className='modal-input' />
         <Button variant="dark" onClick={props.onHide} className='modal-button'>Submit</Button>
       </Modal.Body>
       <Modal.Footer className='modal-footer'>
