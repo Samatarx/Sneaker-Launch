@@ -83,7 +83,7 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
   <img src='./public/imagesbootstrap.png?raw=true'> -->
 
 
-![Bootstrap](public/images/bootstrap.png)
+![Bootstrap](./public/images/bootstrap.png)
 
 ## AWS
 
@@ -95,7 +95,7 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 Was able to obtain a high score for the Google Lighthouse report, gaining an average of 96
 
 <p align='center'>
-  <img src='public/images/seo.png'>
+  <img src='./public/images/seo.png'>
 </p>
 
 ## Future work
