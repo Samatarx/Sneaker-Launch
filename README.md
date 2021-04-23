@@ -81,8 +81,9 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 - Took advantage of the responsive navbar and added custom CSS to change the default styling.
 
 <p align='center'>
-<img src='./public/images/README-Images/bootstrap.png'>
+  <img src='./public/images/README-Images/bootstrap.png?raw=true'>
 </p>
+
 ## AWS
 
 - Deployed my site online rapidly using AWS Amplify for the first time
@@ -93,7 +94,7 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 Was able to obtain a high score for the Google Lighthouse report, gaining an average of 96
 
 <p align='center'>
-<img src='./public/images/README-Images/seo.png'>
+  <img src='./public/images/README-Images/seo.png?raw=true'>
 </p>
 
 ## Future work
