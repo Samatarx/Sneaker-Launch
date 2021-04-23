@@ -81,7 +81,7 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 - Took advantage of the responsive navbar and added custom CSS to change the default styling.
 
 <p>
-  <img src="./public/images/bootstrap.png">
+  <img src="images/bootstrap.png">
 </p>
 
 ## AWS
@@ -94,7 +94,7 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 Was able to obtain a high score for the Google Lighthouse report, gaining an average of 96
 
 <p>
-  <img src="./public/images/seo.png">
+  <img src="images/seo.png">
 </p>
 
 ## Future work
