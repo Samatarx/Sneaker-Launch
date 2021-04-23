@@ -79,7 +79,8 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 - Applied the latest version of Bootstrap to make the website aesthetic and modern
 - Leverage the Bootstrap built in Modal and extended it further by using useEffect to turn it into a pop up
 - Took advantage of the responsive navbar and added custom CSS to change the default styling.
-![Bootstrap](./public/images/Bootstrap.png)
+
+![Bootstrap](/public/images/Bootstrap.png)
 
 <p>
   <img src="./public/images/Bootstrap.png">
