@@ -2,9 +2,10 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/samatarx/Crypto-Dashboard">
-    :moneybag:
+  <a href="https://github.com/samatarx/Sneaker-Launch">
+    
   </a>
+![alt text](./images/5.png)
 
   <h3 align="center">Sneaker Drop</h3>
 
@@ -14,9 +15,9 @@
     <br />
     <a href="https://top100cryptocurrencies.netlify.app/" target='#'>View Demo</a>
     ·
-    <a href="https://github.com/samatarx/Crypto-Dashboard/issues">Report Bug</a>
+    <a href="https://github.com/samatarx/Sneaker-Launch/issues">Report Bug</a>
     ·
-    <a href="https://github.com/samatarx/Crypto-Dashboard/issues">Request Feature</a>
+    <a href="https://github.com/samatarx/Sneaker-Launch/issues">Request Feature</a>
   </p>
 </p>
 
@@ -38,12 +39,7 @@
       </ul>
     </li>
     <li><a href="#features">Features</a></li>
-    <li><a href="#react">React</a>
-        <ul>
-            <li><a href="#react-router">React Router</a></li>
-            <li><a href="#react-form">React Form Validation</a></li>
-        </ul>
-    </li>
+    <li><a href="#react">React</a></li>
     <li><a href="#aws">AWS</a></li>
     <li><a href="#seo">SEO</a></li>
     <li><a href="#future_work">Future Work</a></li>
@@ -56,9 +52,11 @@
 
 ## About The Project
 
-Cryptocurrencies and decentralised finance (DeFi) are taking over the world and redefining what money is. I wanted to create a dashboard which displays the current price of a coin and more importantly the price changes of the coin.
+I created a sneaker launch website to demonstrate my ability to use React, React-Router and Bootstrap. I have previously used react router in tutorials and I wanted to try it myself and put my own spin on it.
 
-I used the JAMstack approach to build this project, I found an amazing free API from Coingecko and I leveraged my React.js skills to build an elegant dashboard.
+Additionally, I created a form with validation to cement my knowledge of React and I used an external library to assist me with it. Whilst, aslo using AWS to deploy and host the site.
+
+The website is responsive to all screen sizes and has 90+ score on all metrics of the Google Chrome Lighthouse test.
 
 ### Built With
 
@@ -66,6 +64,7 @@ I used the JAMstack approach to build this project, I found an amazing free API 
 - [React-Bootstrap](https://react-bootstrap.github.io/)
 - [React Router](https://reactrouter.com/)
 - [React Hook Form](https://react-hook-form.com/)
+- [AWS Amplify](https://aws.com)
 - HTML/CSS/JS
 
 <!-- GETTING STARTED -->
@@ -87,7 +86,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/samatarx/Crypto-Dashboard.git
+   git clone https://github.com/samatarx/Sneaker-Launch.git
    ```
 2. Install NPM packages
    ```sh
@@ -98,11 +97,8 @@ This is an example of how to list things you need to use the software and how to
 
 ## Features
 
-- Displays cryptocurrency information/data about current values and price changes from 1 day to 1 year
-- Users can search through the data using the input bar
-- Data can be viewed in list format and in card format
-- Created a button to allow users to return to the top of the page effortlessly
-- Made a CSS animation informing users to rotate the screen
+- Landing and Heritage page which implements Bootstrap 4 for styling
+- Preorder form with validation
 - Web app is responsive to all screen sizes
 
 <!-- ROADMAP -->
@@ -110,18 +106,26 @@ This is an example of how to list things you need to use the software and how to
 ## React
 
 - Implemented the use of React hooks through the project
-- Used useEffect to call the data in an asynchronous way
-- Allow users to switch between card and list view using useState properties and terniary operators
-- Used .map(), .filter(), .sort() and .includes() to manipulate the JSON file recieved from the API
+- Utilised useEffect to create the countdown timer in the footer
+- Applied .map() to create all the image components
+- Leverage external libraries to create the form
+- Used React Router to switch between pages
+- 
 
 <!-- Future Improvements -->
 
+## AWS
+
+- Deployed my site online rapidly using AWS Amplify for the first time
+
+## SEO
+
+
+
 ## Future_work
 
-- Display tickers/price graphs using Chart.js or equivalent
-- Allow users to compare
-- Make the mobile rotate optional
-- Create tests for the project
+- Add more shoes to the store and create a cart with Redux
+- Implement AWS Lambdas to create an entirely serverless site
 
 <!-- CONTACT -->
 
