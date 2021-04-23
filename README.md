@@ -23,6 +23,7 @@
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
+
 1. [About the Project](#about-the-project)
 2. [Built With](#built-with)
 3. [Features](#features)
@@ -33,7 +34,6 @@
 8. [Future Work](#future-work)
 9. [Contact](#contact)
 10. [Acknowledgements](#acknowledgements)
-
 
 <!-- ABOUT THE PROJECT -->
 
@@ -80,18 +80,18 @@ The website is responsive to all screen sizes and has 90+ score on all metrics o
 - Leverage the Bootstrap built in Modal and extended it further by using useEffect to turn it into a pop up
 - Took advantage of the responsive navbar and added custom CSS to change the default styling.
 
-![](./public/images/README-Images/bootstrap.png)
+<img src='./public/images/README-Images/bootstrap.png'>
 
 ## AWS
 
 - Deployed my site online rapidly using AWS Amplify for the first time
-- Connected the site to an actual domain, whilst benefiting from the AWS security certificate 
+- Connected the site to an actual domain, whilst benefiting from the AWS security certificate
 
 ## SEO
 
 Was able to obtain a high score for the Google Lighthouse report, gaining an average of 96
 
-![Lighthouse ratings](./public/images/README-Images/seo.png)
+<img src='./public/images/README-Images/seo.png'>
 
 ## Future work
 
