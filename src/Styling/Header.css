@@ -1,10 +1,12 @@
 .header-navbar {
   border-bottom: 2px #96c0df solid;
+  z-index: 10;
 }
 
 .header-logo,
 .header-link {
   color: #000 !important;
+  cursor: pointer;
 }
 
 .header-collapse {

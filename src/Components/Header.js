@@ -5,12 +5,8 @@ import "../Styling/Header.css";
 
 function Header() {
   return (
-    <Navbar
-      expand="lg"
-      collapseOnSelect
-      className='header-navbar'
-    >
-      <LinkContainer className='header-logo' to="/" >
+    <Navbar expand="lg" collapseOnSelect className="header-navbar">
+      <LinkContainer className="header-logo" to="/">
         <Navbar.Brand>Sneaker drop</Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -19,18 +15,16 @@ function Header() {
         className="justify-content-end header-collapse"
       >
         <Nav>
-          <LinkContainer  to="/Heritage">
-            <Nav.Link className='header-link'>Heritage</Nav.Link>
+          <LinkContainer to="/Heritage">
+            <Nav.Link>
+              <span className="header-link">Heritage</span>
+            </Nav.Link>
           </LinkContainer>
         </Nav>
         <Nav>
           <LinkContainer to="/Preorder">
             <Nav.Link>
-              <span
-                className='header-span'
-              >
-                Preorder
-              </span>
+              <span className="header-span">Preorder</span>
             </Nav.Link>
           </LinkContainer>
         </Nav>
