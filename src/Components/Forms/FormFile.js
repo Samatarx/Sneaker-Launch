@@ -9,7 +9,7 @@ function FormFile({ count, increaseCount }) {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const [info, setInfo] = useState({});
+  const [setInfo] = useState({});
   const onSubmission = (data) => {
     setInfo(data);
     increaseCount();
